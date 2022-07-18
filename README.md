@@ -4,6 +4,7 @@
 1）、在本项目路径下将Java本地文件生成c语言头文件
 
 javac -d .\build\ .\src\cn\xgl\demo\JniHash.java
+
 javah -d .\jni\ -cp .\build\ cn.xgl.demo.JniHash
 
 2）、会在jni文件下生成cn_xgl_demo_JniHash.h
